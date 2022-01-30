@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #22212C;
+    color: #837E9F;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;  
+}
+
+.main{
+    display: flex;
+    justify-content: flex-start;
+    padding: 40px;
+}
+
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.cardInfos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 348px;
+    height: 292px;
+    background-color: #302F3D;
+    border-radius: 20px;
+    box-shadow: rgb(21 21 21) 2px 2px 5px 0px;
+}
+
+.cardInfos img{
+    width: 128px;
+    border-radius: 50%;
+    border: solid 2px #00b3ff;
+    margin-top: 32px;
+    margin-bottom: 30px;
+}
+
+.cardInfos h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 29px;
+}
+.cardInfos p{
+    margin-bottom: 40px;
+}
+
+.cardContatos{
+    
+    box-shadow: rgb(21 21 21) 2px 2px 5px 0px;
+    flex-direction: column;
+    display: flex;
+    width: 348px;
+    margin-top: 30px;
+    background-color: #302F3D;
+    border-radius: 20px;
+    padding: 25px 40px 5px 40px;
+    margin-bottom: 30px;
+    
+}
+
+.cardContatos div{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: baseline;
+}
+
+.cardContatos div p{
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.cardTecs{
+    background-color: #302F3D;
+    border-radius: 20px;
+    width: 348px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: rgb(21 21 21) 2px 2px 5px 0px;
+    
+}
+
+.tecs{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.cardTecs h2{
+    margin-bottom: 20px;
+}
+
+.tecs p{
+    background: #CB92B1;
+    margin: 5px;
+    border-radius:  20px;
+    border: solid #CB92B1;
+    border-width: 10px 30px;
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 13px;
+    text-align: center;
+}
+
+.cardEducacao{
+    box-shadow: rgb(21 21 21) 2px 2px 5px 0px;
+    border-radius: 20px;
+    padding: 30px;
+    width: 348px;
+    background-color: #302F3D;
+}
+
+.cardEducacao h2{
+    margin-bottom: 20px;
+}
+.cardEducacao ul{
+    margin-left: 40px;
+}
+.cardEducacao ul li{
+    font-size: larger;
+    font-weight: 700;
+    
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+.timeline{
+    margin-left: 60px;
+    width: 100%;
+}
+
+.cardMyProjects{
+    display: flex;
+    height: 86px;
+    background-color: #302F3D;
+    border-radius: 20px;
+    box-shadow: rgb(21 21 21) 2px 2px 5px 0px;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.cardMyProjects p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 30px;
+}
