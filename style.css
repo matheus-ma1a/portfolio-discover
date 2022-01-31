@@ -170,3 +170,19 @@ body{
     line-height: 25px;
     margin-left: 30px;
 }
+
+.posts{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.cardRepos{
+    background-color: var(--bg-cards);
+    border-radius: 20px;
+    width: 49%;
+    margin-top: 25px;
+    box-shadow: rgb(21 21 21) 2px 2px 5px 0px;
+    padding: 20px 40px;
+}
