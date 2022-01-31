@@ -154,7 +154,7 @@ body{
 
 .cardMyProjects{
     display: flex;
-    height: 86px;
+    height: 70px;
     background-color: var(--bg-cards);
     border-radius: 20px;
     box-shadow: rgb(21 21 21) 2px 2px 5px 0px;
@@ -184,5 +184,26 @@ body{
     width: 49%;
     margin-top: 25px;
     box-shadow: rgb(21 21 21) 2px 2px 5px 0px;
-    padding: 20px 40px;
+    padding: 30px 30px;
+}
+
+.cardRepos div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.cardRepos div div p {
+    margin-right: 20px;
+}
+
+.descricao {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.far.fa-folder{
+    margin-right: 16px;
+
 }
