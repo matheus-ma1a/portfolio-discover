@@ -190,12 +190,24 @@ a{
     margin-top: 25px;
     box-shadow: rgb(21 21 21) 2px 2px 5px 0px;
     padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
 }
 
 .cardRepos div{
     display: flex;
     justify-content: space-between;
     
+}
+
+.cardRepos span{
+    display: flex;
+    align-items: baseline
+}
+.cardRepos span i{
+    font-size: 23px;
+    margin-left: 10px;
 }
 
 .cardRepos div div p {
